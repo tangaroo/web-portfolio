@@ -1,16 +1,102 @@
-html,
+:root {
+  /* Colours */
+  --light-primary: #FFFFFF;
+  --light-secondary: #13151A;
+  --light-tertiary: #F2F2F2;
+  --dark-primary: #13151A;
+  --dark-secondary: #F2F2F2;
+  --dark-tertiary: #212227;
+
+  --spacing-unit: 4px;
+
+  --space-xxs: calc(2 * var(--spacing-unit));
+  --space-xs: calc(4 * var(--spacing-unit));
+  --space-sm: calc(5 * var(--spacing-unit));
+  --space-md: calc(8 * var(--spacing-unit));
+  --space-lg: calc(10 * var(--spacing-unit));
+  --space-xl: calc(14 * var(--spacing-unit));
+  --space-xxl: calc(20 * var(--spacing-unit));
+
+  /* Typography */
+  --primary-font: Helvetica;
+  --accent-font: Times;
+
+  --type-xs: calc(4 * var(--spacing-unit));
+  --type-sm: calc(4.5 * var(--spacing-unit));
+  --type-md: calc(5 * var(--spacing-unit));
+  --type-lg: calc(6 * var(--spacing-unit));
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: var(--dark-primary);
+    --text: var(--dark-secondary);
+    --background-card: var(--dark-tertiary);
+  }
+}
+
+[data-theme="dark"] {
+  --background: var(--dark-primary);
+  --text: var(--dark-secondary);
+  --background-card: var(--dark-tertiary);
+}
+
+[data-theme="light"] {
+  --background: var(--light-primary);
+  --text: var(--light-secondary);
+  --background-card: var(--light-tertiary);
+}
+
 body {
-  padding: 0;
+  background: var(--background);
+  color: var(--text);
+  margin: 0 auto;
+  width: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  transition: all 0.3s;
+  cursor: url(../public/default.svg), default;
+}
+
+p {
+  font: 400 var(--type-sm)/1.2 var(--primary-font), sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
-  color: inherit;
+  font: 400 var(--type-sm)/1.2 var(--primary-font), sans-serif;
   text-decoration: none;
+  color: var(--primary);
+  transition: 0.2s all;
 }
 
-* {
-  box-sizing: border-box;
+a:hover {
+  font-family: var(--accent-font), serif;
+  font-style: italic;
+  cursor: url(../public/hover.svg), pointer;
+}
+
+s {
+  color: var(--text);
+}
+
+li {
+  font: 400 var(--type-sm)/1.2 var(--primary-font), sans-serif;
+}
+
+@media (min-width: 800px) {
+
+  a {
+    font-size: var(--type-md);
+  }
+
+  p {
+    font-size: var(--type-md);
+  }
+
+  li {
+    font-size: var(--type-md);
+  }
+
 }

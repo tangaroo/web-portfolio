@@ -1,0 +1,35 @@
+[
+  {
+  "cardTitle": "Website features",
+  "features": [
+
+    {
+      "href": "https://www.getrevue.co/profile/freshfonts/issues/71-curated-by-dennis-moya-swissposters-302653",
+      "label": "Fresh Fonts / "
+    },
+      {
+      "href": "https://godly.website/website/623-cassandra-tang",
+      "label": "Godly / "
+    },
+    {
+      "href": "https://manuelmoreale.com/six-seven-eight",
+      "label": "The Gallery / "
+    },
+    {
+      "href": "https://minimal.gallery/cassandra-tang/",
+      "label": "Minimal Gallery / "
+    },
+      {
+      "href": "https://www.minimalny.com/cassandra-tang/",
+      "label": "Minimalny / "
+    },
+      {
+      "href": "https://land-book.com/websites/27352-cassandra-tang",
+      "label": "Land-book / "
+    },
+       {
+      "href": "https://www.superhi.com/hall-of-fame/portfolio-by-cassandra-tang",
+      "label": "SuperHi Hall of Fame"
+    }
+    ]}
+]

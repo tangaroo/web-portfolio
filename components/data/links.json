@@ -1,0 +1,53 @@
+[
+  {
+    "heading": "I've worked with...",
+    "tableRows": [
+      {
+        "number": "2020",
+        "heading": "Fancy cooktops",
+        "url": "https://bora.com"
+      },
+      {
+        "number": "2020",
+        "heading": "Cleaning stuff",
+        "url": "https://henkel.com"
+      },
+     {
+        "number": "2019",
+        "heading": "German coffee",
+        "url": "https://melitta.com"
+      },
+          {
+        "number": "2019",
+        "heading": "Travel innovation",
+        "url": "https://appchallenge.singaporeair.com/en/challenges/appchallenge-2019"
+      }
+    ]
+  },
+
+  {
+    "heading": "Latest shenanigans",
+    "tableRows": [
+      {
+        "number": "01",
+        "heading": "Things I've Learnt",
+        "url": "https://thingsivelearnt.netlify.app"
+      },
+      {
+        "number": "02",
+        "heading": "The Art of Collecting",
+        "url": "https://uxdesign.cc/the-art-of-collecting-ead79c5f5e49"
+      },
+      {
+        "number": "03",
+        "heading": "Worthy Newsletters",
+        "url": "https://worthynewsletters.netlify.app"
+      },
+      {
+        "number": "04",
+        "heading": "The Flâneur Approach to Design",
+        "url": "https://medium.com/user-experience-design-1/the-flaneur-approach-to-design-4d8d59ce8cc"
+      }
+    ]
+  }
+]

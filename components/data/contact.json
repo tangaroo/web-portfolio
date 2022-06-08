@@ -1,0 +1,23 @@
+[
+  {
+  "cardTitle": "Get in touch",
+  "features": [
+ 
+      {
+      "href": "mailto:hello@cassandratang.me",
+      "label": "hello@cassandratang.me"
+    },
+    {
+      "href": "https://instagram.com/typecass",
+      "label": "ig / @typecass"
+    },
+    {
+      "href": "https://medium.com/@typecass",
+      "label": "me / @typecass"
+    },
+    {
+      "href": "https://www.linkedin.com/in/cassandra-tang/",
+      "label": "in / cassandra-tang"
+    }
+  ]}
+]
