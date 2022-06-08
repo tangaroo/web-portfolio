@@ -1,0 +1,21 @@
+.accent {
+    font-family: var(--accent-font);
+    font-style: italic;
+    margin-bottom: var(--space-xxs);
+}
+
+.card {
+    background-color: var(--background-card);
+    border-radius: var(--space-sm);
+    padding: var(--space-sm);
+    margin: var(--space-xs) 0px;
+}
+
+@media (min-width: 800px) {
+
+    .card {
+        padding: var(--space-lg);
+        margin: var(--space-sm) 0px;
+    }
+
+}

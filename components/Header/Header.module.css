@@ -1,0 +1,32 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0px var(--space-sm);
+    max-width: inherit;
+}
+
+.header svg {
+    width: 100px;
+}
+
+.header svg path {
+    fill: var(--text);
+}
+
+@media(min-width: 1150px) {
+
+    .header {
+        padding: 0px var(--space-lg);
+    }
+
+}
+
+@media(min-width: 1840px) {
+
+    .header {
+        position: relative;
+        padding: 0px;
+    }
+}

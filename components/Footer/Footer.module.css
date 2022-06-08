@@ -1,0 +1,12 @@
+.small {
+    font-size: var(--type-xs);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    padding: var(--space-sm) 0px;
+    margin: var(--space-sm) 0px 0px 0px;
+}

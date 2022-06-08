@@ -1,6 +1,6 @@
-import styles from "../styles/Components.module.css";
+import styles from "./Bio.module.css";
 
-export default function CardwithDetails() {
+export default function Bio() {
   return (
     <div className={styles.card}>
       <p>

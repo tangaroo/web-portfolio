@@ -1,0 +1,64 @@
+.small {
+    font-size: var(--type-xs);
+}
+
+.accent {
+    font-family: var(--accent-font);
+    font-style: italic;
+    margin-bottom: var(--space-xxs);
+}
+
+.space {
+    margin-top: var(--space-xs);
+    margin-bottom: var(--space-xs);
+}
+
+.card {
+    background-color: var(--background-card);
+    border-radius: var(--space-sm);
+    padding: var(--space-sm);
+    margin: var(--space-xs) 0px;
+}
+
+.summary {
+    margin-top: var(--space-lg);
+    list-style: none;
+    cursor: url(../../public/hover.svg), pointer;
+    max-width: fit-content;
+    border-bottom: 1px solid var(--text);
+    font: 400 var(--type-xs)/1.3 var(--primary-font), sans-serif;
+}
+
+.summary:hover {
+    font-family: var(--accent-font);
+    font-style: italic;
+}
+
+.summary::after {
+    content: "Tell me more";
+}
+
+.details[open] {
+    margin: 0;
+}
+
+.details[open] summary {
+    margin-bottom: var(--space-xs);
+}
+
+.details[open] summary:after {
+    content: 'Okay, TMI';
+}
+
+@media (min-width: 800px) {
+
+    .summary {
+        font-size: var(--type-sm);
+    }
+
+    .card {
+        padding: var(--space-lg);
+        margin: var(--space-sm) 0px;
+    }
+
+}

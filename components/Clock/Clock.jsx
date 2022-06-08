@@ -1,4 +1,5 @@
-import styles from "../styles/Components.module.css";
+import styles from "./Clock.module.css";
+
 import moment from "moment-timezone";
 import { useState } from "react";
 
