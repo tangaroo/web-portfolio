@@ -3,7 +3,12 @@ import styles from "./Footer.module.css";
 export default function FooterComponent() {
   return (
     <footer className={styles.footer}>
-      <p className={styles.small}>Last updated 5 June 2022</p>
+      <a
+        className={styles.small}
+        href="https://open.spotify.com/playlist/2fv2gGuK1nGWtnfY0qihEk?si=bf0b0cd306634eaf"
+      >
+        ♫ White Dawn, Glaring Noons
+      </a>
       <p className={styles.small}>&copy; 2022</p>
     </footer>
   );

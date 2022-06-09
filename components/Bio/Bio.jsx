@@ -5,8 +5,8 @@ export default function Bio() {
     <div className={styles.card}>
       <p>
         I’m Cassandra <span className={styles.accent}>(forever happy)</span>{" "}
-        Tang. <s>Avid traveller,</s> Font hoarder, type fanatic and master of
-        auto layout. Ocassional writer for the{" "}
+        Tang. <s>Avid traveller,</s> Dog whisperer, font hoarder, type fanatic
+        and master of auto layout. Ocassional writer for the{" "}
         <a href="https://medium.com/@typecass" target="_blank" rel="noreferrer">
           UX Collective
         </a>{" "}
@@ -35,7 +35,16 @@ export default function Bio() {
           <li>
             Got a thing for lists and slightly wacky, conceptual projects.
           </li>
-          <li>Latest WIP is this site and my capsule wardrobe.</li>
+          <li>
+            Last good book I read was{" "}
+            <a
+              href="https://www.goodreads.com/en/book/show/37638098-creative-selection"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Creative Selection.
+            </a>
+          </li>
           <li>
             Anything else, <a href="mailto:hello@cassandratang.me">ask away</a>.
           </li>

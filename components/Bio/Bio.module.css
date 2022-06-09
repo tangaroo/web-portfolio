@@ -50,6 +50,10 @@
     content: 'Okay, TMI';
 }
 
+.details .summary::-webkit-details-marker {
+    display: none;
+}
+
 @media (min-width: 800px) {
 
     .summary {

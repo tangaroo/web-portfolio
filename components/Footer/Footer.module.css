@@ -8,5 +8,5 @@
     align-items: center;
     max-width: 800px;
     padding: var(--space-sm) 0px;
-    margin: var(--space-sm) 0px 0px 0px;
+    margin: var(--space-sm) 0px var(--space-md) 0px;
 }
