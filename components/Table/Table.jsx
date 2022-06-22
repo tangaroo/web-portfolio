@@ -1,7 +1,7 @@
 import styles from "./Table.module.css";
 import tableData from "../data/links.json";
 
-export default function TableComponent() {
+export default function Table() {
   return tableData.map((data, i) => (
     <table className={styles.table} key={`table-${i}`}>
       <tr className={styles.row}>

@@ -5,13 +5,13 @@ import { useState, useEffect } from 'react'
 import ContactData from '../components/data/contact.json'
 import FeaturesData from '../components/data/features.json'
 
-import HeadComponent from '../components/Head.jsx'
-import HeaderComponent from '../components/Header/Header.jsx'
+import SEO from '../components/Head.jsx'
+import Header from '../components/Header/Header.jsx'
 import Clock from '../components/Clock/Clock.jsx'
 import Bio from '../components/Bio/Bio.jsx'
 import Card from '../components/Card/Card.jsx'
-import TableComponent from '../components/Table/Table.jsx'
-import FooterComponent from '../components/Footer/Footer.jsx'
+import Table from '../components/Table/Table.jsx'
+import Footer from '../components/Footer/Footer.jsx'
 
 export default function Home() {
   const [theme, setTheme] = useState("");
@@ -38,10 +38,10 @@ export default function Home() {
 
   return (
       <>
-      <HeadComponent />
+      <SEO />
       <main className={styles.main} data-theme={theme}>
       <div className={styles.content}>
-      <HeaderComponent />
+      <Header />
       <div className={styles.info}>
         <Clock />
             <button className={styles.button} onClick={themeToggle}>
@@ -54,13 +54,13 @@ export default function Home() {
             content={ContactData}
             display="block"
           />
-          <TableComponent />
+          <Table />
          <Card
             content={FeaturesData}
             display="inline"
           />
         
-        <FooterComponent/>
+        <Footer/>
         </div>
         </main>
       </>

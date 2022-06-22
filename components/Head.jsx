@@ -1,12 +1,13 @@
 import Head from "next/head";
 
-export default function HeadComponent() {
+export default function SEO({ title, description, image, url }) {
   const seo = {
-    title: "Cassandra Tang",
+    title: `Cassandra Tang - ${title}` || "Cassandra Tang",
     description:
+      description ||
       "Product Designer, based in Glasgow. I like crafting intuitive products and meaningful experiences.",
-    image: "/ct-siteimage.png",
-    url: "https://cassandratang.me",
+    image: image || "/ct-siteimage.png",
+    url: url || "https://cassandratang.me",
   };
   return (
     <Head>
