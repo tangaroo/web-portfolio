@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function SEO({ title, description, image, url }) {
   const seo = {
-    title: `Cassandra Tang - ${title}` || "Cassandra Tang",
+    title: title || "Cassandra Tang",
     description:
       description ||
       "Product Designer, based in Glasgow. I like crafting intuitive products and meaningful experiences.",
